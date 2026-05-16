@@ -1,0 +1,101 @@
+name: unitrendclaude
+description: "UniTrend - Social media trend aggregator for YouTube, Reddit, and News."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+  firebase_messaging: ^15.0.0
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Networking
+  http: ^1.2.2
+
+  # Image caching
+  cached_network_image: ^3.4.1
+
+  # Environment variables
+  flutter_dotenv: ^5.2.1
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Loading shimmer effect
+  shimmer: ^3.0.0
+
+  # Open URLs in browser
+  url_launcher: ^6.3.1
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Image picker for profile picture
+  image_picker: ^1.1.2
+
+  # Local file path for storing profile pictures
+  path_provider: ^2.1.4
+
+  # Share content externally
+  share_plus: ^10.1.4
+
+  # Local preferences storage
+  shared_preferences: ^2.3.2
+
+  # Push notifications (Android)
+  flutter_local_notifications: ^18.0.0
+
+  # RSS feed parsing
+  webfeed_revised: 0.8.0
+
+  # Charts for score history visualization
+  fl_chart: ^0.69.0
+
+  # Background task scheduling (watchlist notifications when app is closed)
+  workmanager: ^0.9.0
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Robust HTML parsing
+  html: ^0.15.4
+
+  # Deep link receiving (unitrend://cluster/[id])
+  app_links: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env

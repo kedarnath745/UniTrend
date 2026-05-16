@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/kedaa/Downloads/flutter_windows_3.38.9-stable/flutter/bin/flutter.bat pub:*)",
+      "Bash(flutter pub:*)",
+      "Read(//mnt/c/Users/kedaa/AppData/Local/**)",
+      "Read(//mnt/c/Users/kedaa/**)",
+      "Bash(flutter analyze:*)",
+      "Bash(grep:*)",
+      "Bash(\"C:/Users/kedaa/Desktop/flutter/bin/flutter.bat\" pub:*)",
+      "Bash(\"C:/Users/kedaa/Desktop/flutter/bin/flutter.bat\" analyze:*)",
+      "Bash(/c/Users/kedaa/Downloads/flutter_windows_3.38.9-stable/flutter/bin/flutter.bat analyze:*)",
+      "Bash(\"C:\\\\Users\\\\kedaa\\\\Downloads\\\\flutter_windows_3.38.9-stable\\\\flutter\\\\bin\\\\flutter.bat\" analyze:*)",
+      "Bash(\"/c/Users/kedaa/Downloads/flutter_windows_3.38.9-stable/flutter/bin/flutter\" analyze:*)",
+      "Bash(where flutter:*)",
+      "Bash(C:/Users/kedaa/AppData/Local/Android/sdk/platform-tools/adb.exe devices:*)",
+      "Bash(\"C:/Users/kedaa/AppData/Local/Android/sdk/platform-tools/adb.exe\" shell:*)",
+      "Bash(\"C:/Users/kedaa/AppData/Local/Android/sdk/platform-tools/adb.exe\" logcat:*)",
+      "Bash(\"/c/Users/kedaa/Desktop/flutter/bin/flutter\" clean:*)",
+      "Bash(\"/c/Users/kedaa/Desktop/flutter/bin/flutter\" pub:*)",
+      "Bash(\"/c/Users/kedaa/Desktop/flutter/bin/flutter\" build:*)",
+      "Bash(C:/Users/kedaa/AppData/Local/Android/sdk/platform-tools/adb.exe install:*)",
+      "Bash(/c/Users/kedaa/Desktop/flutter/bin/flutter:*)",
+      "Bash(\"/c/Users/kedaa/Desktop/flutter/bin/flutter\" analyze:*)",
+      "Bash(npm:*)",
+      "Bash(firebase:*)",
+      "Bash(curl -s \"https://www.googleapis.com/youtube/v3/videos?part=snippet,status&chart=mostPopular&regionCode=US&maxResults=10&key=REDACTED\")",
+      "Bash(python3 -c \"import json,sys; items=json.load\\(sys.stdin\\)['items']; [print\\(i['snippet']['channelTitle'], '| embeddable:', i['status']['embeddable'], '| privacy:', i['status']['privacyStatus']\\) for i in items]\")",
+      "Bash(dart run:*)",
+      "Bash(flutter build:*)",
+      "Bash(flutter run:*)",
+      "Bash(wc:*)",
+      "mcp__code-review-graph__list_graph_stats_tool",
+      "mcp__code-review-graph__get_architecture_overview_tool",
+      "mcp__code-review-graph__list_communities_tool",
+      "mcp__code-review-graph__semantic_search_nodes_tool",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "mcp__code-review-graph__get_hub_nodes_tool",
+      "mcp__code-review-graph__query_graph_tool",
+      "Bash(git rm *)",
+      "Bash(git check-ignore *)",
+      "Bash(git mv *)",
+      "Bash(git ls-tree *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "code-review-graph"
+  ]
+}

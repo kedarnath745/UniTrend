@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1008809697921",
+    "project_id": "unitrend-55531",
+    "storage_bucket": "unitrend-55531.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008809697921:android:0bab065e2af7b8cad5e380",
+        "android_client_info": {
+          "package_name": "com.example.unitrend_version1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008809697921-p2ppcs9715lsogu14ceo32g1b3vpgv28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unitrend_version1",
+            "certificate_hash": "6dc684077ad8f1d4e9857cccda8d6ca41fb211c8"
+          }
+        },
+        {
+          "client_id": "1008809697921-ftg3gfblthun6jm6om8lhi94ff5u76uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "REDACTED"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008809697921-ftg3gfblthun6jm6om8lhi94ff5u76uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

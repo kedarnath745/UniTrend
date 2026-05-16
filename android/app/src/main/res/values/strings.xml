@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shortcut_watchlist_short">Watchlist</string>
+    <string name="shortcut_watchlist_long">My Watchlist</string>
+    <string name="shortcut_india_short">India</string>
+    <string name="shortcut_india_long">India Trends</string>
+</resources>

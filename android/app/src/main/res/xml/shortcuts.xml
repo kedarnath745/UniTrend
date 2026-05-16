@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="my_watchlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_watchlist_short"
+        android:shortcutLongLabel="@string/shortcut_watchlist_long">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.example.unitrend_version1"
+            android:targetClass="com.example.unitrend_version1.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="india_trends"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_india_short"
+        android:shortcutLongLabel="@string/shortcut_india_long">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.example.unitrend_version1"
+            android:targetClass="com.example.unitrend_version1.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
